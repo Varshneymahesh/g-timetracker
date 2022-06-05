@@ -18,7 +18,7 @@
 
 import QtQuick 2.6
 
-Item {
+Item{{ {
     property date beginDate: new Date(0)
     property date endDate: new Date()
 }
